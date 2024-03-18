@@ -1,0 +1,62 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(113, 112, 85, 0.613);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.age-container{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    box-shadow: 0 0 10px 0 black;
+    text-align: center;
+
+}
+.age-header{
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+label{
+  display: block;
+  text-transform:capitalize;
+  font-weight: bold;
+  padding-top:10px ;
+  padding-bottom: 10px;
+}
+.dob-input{
+    height: 30px;
+    width: 200px;
+    border-radius:6px ;
+
+}
+.age-btton{
+    margin: 10px;
+
+}
+.calculate-btn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+button{
+         background-color: dimgrey;
+         color: white;
+}
+.age-result{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
